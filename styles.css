@@ -1,0 +1,110 @@
+/*Colors, fonts and size*/
+
+header {
+  background-color: #505458;
+  margin-top: 0px;
+  padding: 20px;
+  width: 100%;
+  font-size: 120px;
+  font-family: 'Impact', Haettenschweiler, Arial Narrow Bold, sans-serif;
+}
+
+body {
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #404245;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+  
+}
+
+h4 {
+  text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
+}
+
+h3{
+  letter-spacing: 5px;
+  text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.6);
+}
+
+.intro_ep{
+  background-color: #494d55;
+  
+}
+
+h1 {
+  letter-spacing: 10px;
+}
+
+pre {
+
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*Image style*/
+
+img {
+  border-radius: 8px;
+}
+
+
+.photo:hover{
+  opacity: 0.7;
+  transform: scale(1.1);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  
+}
+
+.track_covers:hover{
+  transform: scale(1.1);
+  filter: grayscale(100%);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/*Links*/
+a {
+  text-decoration: none;
+  color: #b5b5b5;
+}
+.link:hover {
+  color: whitesmoke;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+
+
+/*Buttons*/
+
+button {
+  color: #ffffff;
+  background-color: #6e6d6f;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 28px;
+  padding-right: 28px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.main_btn {
+  margin: 0 auto;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
